@@ -1,5 +1,5 @@
 function y = generate_noise_signal(N, fs, mode)
-% Noise realista, mas não excessivamente parecido com LTE/NR/WLAN.
+
 
     if nargin < 1 || isempty(N)
         N = 32768;
