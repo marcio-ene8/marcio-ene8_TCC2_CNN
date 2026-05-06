@@ -1,11 +1,5 @@
 function y = generate_unknown_signal(fs, mode)
-% generate_unknown_signal
-% Gera a classe Unknown de forma estruturada e mais realista.
-%
-% Unknown = sinais estranhos / interferidos / misturados,
-% evitando que a classe vire apenas "quase ruído".
-%
-% Uso:
+
 %   y = generate_unknown_signal(20e6, 'train')
 %   y = generate_unknown_signal(20e6, 'test')
 
